@@ -1,0 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic|Playfair+Display+SC|Noto+Serif:400italic,400&subset=latin,cyrillic);
+@import url("mobile.css");
+@import url("styles.css") (min-width:600px);
+@import url("styles.css") (min-device-width:600px);
+/* @import url("print.css") print; */
+

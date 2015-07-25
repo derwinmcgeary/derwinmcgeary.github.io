@@ -1,0 +1,34 @@
+html { height: 101%; }
+/** @group core layout **/
+#w { margin: 0px 50px; padding: 20px 40px; padding-top: 35px; background: #fff; min-width: 260px; max-width: 900px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; }
+
+header { width: 100%; }
+.notdesktop {display: none;}
+.notmobile {display: block;}
+/** @group personal settings **/
+#info { margin-bottom: 12px; }
+#photo { float: right; }
+#photo img { 
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+background-color: #fff;
+border: 1px solid #ccc;
+padding: 5px; 
+}
+
+/** @group skills **/
+#skills-left { display: block; float: left; margin-right: 50px; }
+#skills-right { display: block; float: left;}
+
+/** @group clearfix **/
+@media only screen{
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+} /* @media */
