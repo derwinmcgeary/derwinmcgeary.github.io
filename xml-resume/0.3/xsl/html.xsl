@@ -170,7 +170,7 @@
         <html>
             <head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-                <title>Resume</title>
+                <title><xsl:value-of select="r:name"/></title>
                 <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
                 <link rel="stylesheet" type="text/css" media="print" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
                 <style type="text/css">
