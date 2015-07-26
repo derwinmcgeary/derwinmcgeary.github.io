@@ -376,7 +376,7 @@
                                     <xsl:value-of select="r:subject"/>
                                     <xsl:if test="count(r:degree) = 0">
                                         <xsl:text> </xsl:text>
-                                        (<xsl:value-of select="@type"/>)
+                                       <!-- (<xsl:value-of select="@type"/>) -->
                                     </xsl:if>
                                 </li>
                             </xsl:for-each>
