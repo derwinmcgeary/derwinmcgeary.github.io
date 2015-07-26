@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://bmatsuo.github.io/xml-resume/0.3/xsl/html.xsl"?>
-<resume xmlns="http://bmatsuo.github.io/xml-resume/0.3"
+<?xml-stylesheet type="text/xsl" href="http://derwinmcgeary.github.io/xml-resume/0.3/xsl/html.xsl"?>
+<resume xmlns="http://derwinmcgeary.github.io/xml-resume/0.3"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://bmatsuo.github.io/xml-resume/0.3 http://bmatsuo.github.io/xml-resume/0.3/schema/resume.xsd">
+        xsi:schemaLocation="http://derwinmcgeary.github.io/xml-resume/0.3 http://derwinmcgeary.github.io/xml-resume/0.3/schema/resume.xsd">
   <header>
     <name>Derwin McGeary</name>
     <contact>
@@ -31,15 +31,15 @@
   <skills category="Soft">
     <skill>Communication</skill>
     <skill>Self&#x2013;starter</skill>
-					<skill>Fast Learner</skill>
-					<skill>Teaching</skill>
-					<skill>Approachability</skill>
-					<skill>Reliability &amp; Integrity</skill>
-					<skill>Native English Speaker</skill>
-					<skill>Fluent Russian</skill>
-					<skill>Limited French</skill>
-					<skill>Adaptability</skill>
-     </skills>
+    <skill>Fast Learner</skill>
+    <skill>Teaching</skill>
+    <skill>Approachability</skill>
+    <skill>Reliability &amp; Integrity</skill>
+    <skill>Native English Speaker</skill>
+    <skill>Fluent Russian</skill>
+    <skill>Limited French</skill>
+    <skill>Adaptability</skill>
+  </skills>
   <skills category="Hard">
     <skill>Deep knowledge of English Grammar</skill>
     <skill>Translation Ru-En</skill>
@@ -59,7 +59,7 @@
       <dates from="August 2012" to="June 2015"/>
       <description>
         <para>
-Running a very small business, with wide-ranging responsibilities including textbook provision and student placement, as well as marketing and design of materials.
+	  Running a very small business, with wide-ranging responsibilities including textbook provision and student placement, as well as marketing and design of materials.
         </para>
       </description>
     </employment>
@@ -71,42 +71,102 @@ Running a very small business, with wide-ranging responsibilities including text
         <para>
 	  Teaching English to Russian-speaking students.
         </para>
-       </description>
-     </employment>
-     <employment>
-       <position>Administrative Assistant</position>
-       <employer>Department for Internation Development, East Kilbride</employer>
-       <dates from="September 2005" to="May 2007"/>
-       <description>
-	 <para>
-	   I was responsible for general administration, with a focus on liaising between the IT and Human Resources department.
-	 </para>
-       </description>
-     </employment>
-   <employment>
-       <position>Temporary Data Entry Specialist</position>
-       <employer>NHS Practitioner Services, Savoy Tower, Glasgow</employer>
-       <dates from="July 2004" to="July 2005"/>
-       <description>
-	 <para>
-	   I was responsible for speedy and accurate transcription of medical information.
-	 </para>
-       </description>
-     </employment>
-     <academic>
-       <institution>Johns Hopkins University on Coursera</institution>
-       <dates from="Aug 1994" to="May 1999"/>
-       <concentration type="major">
-         <subject>Aretium Laoreet</subject>
-         <degree>I.S.</degree>
-       </concentration>
-       <concentration type="minor">
-         <subject>Amet Fermentum</subject>
-         <degree/>
-       </concentration>
-       <achievement>
-         <title>Etiam nulla sapien</title>
-       </achievement>
-     </academic>
+      </description>
+    </employment>
+    <employment>
+      <position>Administrative Assistant</position>
+      <employer>Department for Internation Development, East Kilbride</employer>
+      <dates from="September 2005" to="May 2007"/>
+      <description>
+	<para>
+	  I was responsible for general administration, with a focus on liaising between the IT and Human Resources department.
+	</para>
+      </description>
+    </employment>
+    <employment>
+      <position>Temporary Data Entry Specialist</position>
+      <employer>NHS Practitioner Services, Savoy Tower, Glasgow</employer>
+      <dates from="July 2004" to="July 2005"/>
+      <description>
+	<para>
+	  I was responsible for speedy and accurate transcription of medical information.
+	</para>
+      </description>
+    </employment>
+    <academic>
+      <institution>Johns Hopkins University on Coursera</institution>
+      <dates to="June 2015"/>
+      <concentration type="major">
+        <subject>Data Science</subject>
+      </concentration>
+      <concentration type="minor">
+        <subject>Getting and Cleaning Data</subject>
+      </concentration>
+      <achievement>
+        <title>Etiam nulla sapien</title>
+      </achievement>
+    </academic>
+    <academic>
+      <institution>Johns Hopkins University on Coursera</institution>
+      <dates to="June 2015"/>
+      <concentration type="major">
+        <subject>Data Science</subject>
+      </concentration>
+      <concentration type="minor">
+        <subject>Getting and Cleaning Data</subject>
+      </concentration>
+      <achievement>
+        <title>Distinction</title>
+      </achievement>
+    </academic>
+    <academic>
+      <institution>Johns Hopkins University on Coursera</institution>
+      <dates to="May 2015"/>
+      <concentration type="major">
+        <subject>Data Science</subject>
+      </concentration>
+      <concentration type="minor">
+        <subject>R Programming</subject>
+      </concentration>
+      <achievement>
+        <title>Distinction</title>
+      </achievement>
+    </academic>
+    <academic>
+      <institution>Johns Hopkins University on Coursera</institution>
+      <dates to="May 2015"/>
+      <concentration type="major">
+        <subject>Data Science</subject>
+      </concentration>
+      <concentration type="minor">
+        <subject>The Data Scientist&#x27;s Toolbox</subject>
+      </concentration>
+      <achievement>
+        <title>Distinction</title>
+      </achievement>
+    </academic>
+    <academic>
+      <institution>Randolph School of English</institution>
+      <dates to="August 2015"/>
+      <concentration type="major">
+        <subject>Teaching English as a Foreign Language</subject>
+      </concentration>
+      <achievement>
+        <title>Cambridge CELTA</title>
+      </achievement>
+    </academic>
+    <academic>
+      <institution>Clare College, University of Cambridge</institution>
+      <dates from="1999" to="2005"/>
+      <concentration type="major">
+        <subject>Natural Sciences</subject>
+      </concentration>
+      <concentration type="minor">
+	<subject>Physics</subject>
+      </concentration>
+      <achievement>
+        <title>BA(hons)</title>
+      </achievement>
+    </academic>
   </history>
-  </resume>
+</resume>
