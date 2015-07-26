@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://bmatsuo.github.io/xml-resume/0.3/xsl/html.xsl"?>
+<resume xmlns="http://bmatsuo.github.io/xml-resume/0.3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://bmatsuo.github.io/xml-resume/0.3 http://bmatsuo.github.io/xml-resume/0.3/schema/resume.xsd">
+  <header>
+    <name>Derwin McGeary</name>
+    <contact>
+      <email>dez@cantab.net</email>
+      <phone>+44 7519 431364</phone>
+      <address>
+        <street>108 Carnegie Hill</street>
+        <locality>East Kilbride</locality>
+        <region>Glasgow</region>
+        <postcode>G75 0AE</postcode>
+      </address>
+      <link href="https://github.com/derwinmcgeary">Github</link>
+    </contact>
+  </header>
+  <objective>
+    <para>
+      As an experienced English teacher with a history of helping Russian students achieve their goals, I am used to communicating complex and subtle information in such a way as to make it practically useful.
+    </para>
+    <para>
+      While I was a small business owner, I had the opportunity to develop several skillsets. I was responsible for creating teaching and promotional materials, developing the school website, and interviewing and placing students. It was an excellent opportunity to see how all aspects of a business run.
+    </para>
+    <para>
+      Now I am seeking a position leveraging my information technology, business, and communication skills.
+    </para>
+  </objective>
+  <skills category="Soft">
+    <skill>Communication</skill>
+    <skill>Self&#x2013;starter</skill>
+					<skill>Fast Learner</skill>
+					<skill>Teaching</skill>
+					<skill>Approachability</skill>
+					<skill>Reliability &amp; Integrity</skill>
+					<skill>Native English Speaker</skill>
+					<skill>Fluent Russian</skill>
+					<skill>Limited French</skill>
+					<skill>Adaptability</skill>
+     </skills>
+  <skills category="Hard">
+    <skill>Deep knowledge of English Grammar</skill>
+    <skill>Translation Ru-En</skill>
+    <skill>Interpretation Ru-En</skill>
+    <skill>University-level knowledge of Mathematics &amp; Physics</skill>
+    <skill>HTML5/CSS3/Javascript &amp; Web</skill>
+    <skill>R statistical programming and SQL</skill>
+    <skill>Android development</skill>
+    <skill>Git version control system</skill>
+    <skill>MS Office Suite</skill>
+    <skill>Linux command line</skill>
+  </skills>
+  <history>
+    <employment>
+      <position>Founder &amp; Academic Director</position>
+      <employer>Friends' English School, Ufa, Russia</employer>
+      <dates from="August 2012" to="June 2015"/>
+      <description>
+        <para>
+Running a very small business, with wide-ranging responsibilities including textbook provision and student placement, as well as marketing and design of materials.
+        </para>
+      </description>
+    </employment>
+    <employment>
+      <position>English Teacher</position>
+      <employer>Language Link, Ufa, Russia</employer>
+      <dates from="June 2007" to="July 2012"/>
+      <description>
+        <para>
+	  Teaching English to Russian-speaking students.
+        </para>
+       </description>
+     </employment>
+     <employment>
+       <position>Administrative Assistant</position>
+       <employer>Department for Internation Development, East Kilbride</employer>
+       <dates from="September 2005" to="May 2007"/>
+       <description>
+	 <para>
+	   I was responsible for general administration, with a focus on liaising between the IT and Human Resources department.
+	 </para>
+       </description>
+     </employment>
+   <employment>
+       <position>Temporary Data Entry Specialist</position>
+       <employer>NHS Practitioner Services, Savoy Tower, Glasgow</employer>
+       <dates from="July 2004" to="July 2005"/>
+       <description>
+	 <para>
+	   I was responsible for speedy and accurate transcription of medical information.
+	 </para>
+       </description>
+     </employment>
+     <academic>
+       <institution>Johns Hopkins University on Coursera</institution>
+       <dates from="Aug 1994" to="May 1999"/>
+       <concentration type="major">
+         <subject>Aretium Laoreet</subject>
+         <degree>I.S.</degree>
+       </concentration>
+       <concentration type="minor">
+         <subject>Amet Fermentum</subject>
+         <degree/>
+       </concentration>
+       <achievement>
+         <title>Etiam nulla sapien</title>
+       </achievement>
+     </academic>
+  </history>
+  </resume>
