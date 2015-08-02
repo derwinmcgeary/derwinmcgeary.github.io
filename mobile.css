@@ -16,6 +16,7 @@ header {
     text-align: center; }
 #w > section{
     border-top: 1px solid black;
+    page-break: none;
 }
 
 #skillsbox {display: flex;
