@@ -1,10 +1,9 @@
-html { height: 101%; }
 /** @group core layout **/
 #w { background: #fff;
      min-width: 36em;
-     max-width: 48em;
+     max-width: 50%;
      padding: 3em;
-     align:center;
+     margin-left:20%;
    }
 
 header { width: 100%; }
@@ -23,15 +22,5 @@ header { width: 100%; }
 /** @group skills **/
 #skillsbox {display: flex;
 	    justify-content: space-between;
+	    flex-direction: row;
 	   }
-#skills-left { display: block; }
-#skills-right { display: block; float: left;}
-
-/** @group clearfix *
-@media only screen{
-.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-.clearfix { display: inline-block; }
- 
-html[xmlns] .clearfix { display: block; }
-* html .clearfix { height: 1%; }
-} /* @media */

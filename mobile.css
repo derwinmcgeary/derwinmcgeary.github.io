@@ -1,20 +1,20 @@
 * { margin: 0; padding: 0; }
 
 body { background: #f2f2f2 url('images/bg-tile.png'); font-size: 100%; padding-bottom: 65px; }
-header {text-align:center;}
+#w { width: 100%;}
 h1 { font-family: "Roboto Sans", "Trebuchet MS", Arial, sans-serif; color: #454545; font-size: 3em; margin-bottom: 6px; }
 h2 { font-family: "Roboto Sans", "Trebuchet MS", Arial, sans-serif; color: #484848; font-size: 1.8em; margin-bottom: 10px; text-decoration: none; }
 h3 { font-family: "Noto Sans", Verdana, Arial, sans-serif; color: #777; font-weight: normal; font-size: 1.2em; margin-bottom: 10px; }
 h4 { font-family: "Noto Sans", Verdana, Arial, sans-serif; color: #656565; font-weight: bold; font-size: 1.1em; margin-bottom: 4px; }
 
-#info {
+header {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center; }
-body > section{
+#w > section{
     border-top: 1px solid black;
 }
 
@@ -22,6 +22,7 @@ p { font-family: "Noto Serif", "Droid Serif", serif; color: #565656; line-height
 small { font-family: "Noto Serif", "Droid Serif", serif; color: #656565; display: block; margin-bottom: 6px; }
 ul { display: block; list-style-type: square; }
 ul li { padding-left: 0.5em; vertical-align: top; margin-bottom: 5px; font-family: "Noto Serif", "Droid Serif", serif; color: #666; line-height: 2em; }
+
 .notmobile {display: none;}
 
 img { border: 0; max-width: 100%; }
