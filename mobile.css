@@ -18,6 +18,13 @@ header {
     border-top: 1px solid black;
 }
 
+#skillsbox {display: flex;
+	    justify-content: space-between;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	   }
+
+
 p { font-family: "Noto Serif", "Droid Serif", serif; color: #565656; line-height: 1.4em; margin-bottom: 15px; padding-left: 35px; }
 small { font-family: "Noto Serif", "Droid Serif", serif; color: #656565; display: block; margin-bottom: 6px; }
 ul { display: block; list-style-type: square; }
