@@ -5,4 +5,6 @@ h3 {font-size: 1.4em; color:#333;}
 h4 {font-size: 1.2em;}
 p {padding-left:0; margin-bottom:0; line-height:1.2em;}
 #skills {display:block;}
-
+#skillsbox li {display:inline;
+	      }
+#skillsbox li::after {content:",";}
