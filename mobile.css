@@ -24,7 +24,9 @@ header {
 	    flex-direction: column;
 	    flex-wrap: wrap;
 	   }
-
+#skillsbox > section {
+    flex: 1 1 auto;
+}
 
 p { font-family: "Noto Serif", "Droid Serif", serif; color: #565656; line-height: 1.4em; margin-bottom: 15px; padding-left: 35px; }
 small { font-family: "Noto Serif", "Droid Serif", serif; color: #656565; display: block; margin-bottom: 6px; }
