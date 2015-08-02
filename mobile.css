@@ -24,6 +24,7 @@ ul { display: block; list-style-type: square; }
 ul li { padding-left: 0.5em; vertical-align: top; margin-bottom: 5px; font-family: "Noto Serif", "Droid Serif", serif; color: #666; line-height: 2em; }
 
 .notmobile {display: none;}
+.notdesktop {text-size: 200%}
 
 img { border: 0; max-width: 100%; }
 
