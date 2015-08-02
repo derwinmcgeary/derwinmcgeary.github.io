@@ -32,6 +32,7 @@ a:hover { text-decoration: underline; }
 
 
 @media only screen and (max-width: 740px) {
+    @viewport { width: device-width;}
 	h1 { font-size: 3em; }
 	h3 { font-size: 2.2em; }
 	h2 { display: block; text-align: center; }
