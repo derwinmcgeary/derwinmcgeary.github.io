@@ -106,10 +106,23 @@
         <subject>Data Science</subject>
       </concentration>
       <concentration type="minor">
+        <subject>Exploratory Data Analysis</subject>
+      </concentration>
+      <achievement>
+        <title>Distinction</title>
+      </achievement>
+    </academic>
+    <academic>
+      <institution>Johns Hopkins University on Coursera</institution>
+      <dates to="June 2015"/>
+      <concentration type="major">
+        <subject>Data Science</subject>
+      </concentration>
+      <concentration type="minor">
         <subject>Getting and Cleaning Data</subject>
       </concentration>
       <achievement>
-        <title>Etiam nulla sapien</title>
+        <title>Distinction</title>
       </achievement>
     </academic>
     <academic>
