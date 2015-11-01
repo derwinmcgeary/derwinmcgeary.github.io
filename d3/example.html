@@ -24,7 +24,7 @@
 	    var dataset = [];
 	    var n = Math.round(50 * Math.random());
 	    for(i = 0; i < n; i++) {
-			   var newNumber = Math.round(Math.random()*h/2);
+			   var newNumber = Math.round(Math.random()* 0.5 * w/n);
 			   dataset.push(newNumber);
 			   }
 	    var svg = d3.select("body")
@@ -38,10 +38,10 @@
 	    .append("circle");
 
 	    circles
-			   .attr("cx", function(d,i){ return i * w/n + h/2})
+			   .attr("cx", function(d,i){ return i * w/n + 0.5 * w/n})
 			   .attr("cy", h/2)
 			   .attr("r", function(d) {return d;})
-			   .attr("fill", "teal");
+			   .attr("fill", "green");
         </script>
     </body>
 </html>
