@@ -50,7 +50,7 @@
 			   .attr("width", rw)
 			   .attr("fill", function(d){return "rgb(0," + 5 * d + ",0)"});
 	    texts
-			   .attr("text", function(d){return d;}
+			   .text(function(d){return d;})
 			   .attr("text-anchor", "middle")
 			   .attr("x", function(d,i) {return (i + 0.5) * (rw + 1;})
 			   .attr("y", function(d) {return h-d + 14});
