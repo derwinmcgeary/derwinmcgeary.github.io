@@ -25,7 +25,10 @@
 	    .data(dataset)
 	    .enter()
 	    .append("div").attr("class", "bar")
-	    .style("height", function (d){var barHeight = 5* d; return barHeight + "px"});
+	    .style("height", function (d){
+	    var barHeight = 5* d; 
+	    return barHeight + "px";
+	    });
         </script>
     </body>
 </html>
