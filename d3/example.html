@@ -37,23 +37,23 @@
 	    .data(dataset)
 	    .enter()
 	    .append("rect");
-
-	    var texts = svg.selectAll("text")
-			   .data(dataset)
-			   .enter()
-			   .append("text");
-
 	    rects
 			   .attr("x", function(d,i){ return i * (rw+1);})
 			   .attr("y", function(d) {return h-d;})
 			   .attr("height", function(d) {return d;})
 			   .attr("width", rw)
 			   .attr("fill", function(d){return "rgb(0," + 5 * d + ",0)"});
+
+	    var texts = svg.selectAll("text")
+			   .data(dataset)
+			   .enter()
+			   .append("text");
+
 	    texts
 			   .text(function(d){return d;})
 			   .attr("text-anchor", "middle")
 			   .attr("x", function(d,i) {return (i + 0.5) * (rw + 1;})
-			   .attr("y", function(d) {return h-d + 14});
+			   .attr("y", function(d) {return h - d + 14});
         </script>
     </body>
 </html>
