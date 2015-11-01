@@ -22,9 +22,10 @@
 	    var w = 1000;
 	    var h = 200;
 	    var dataset = [];
-	    var n = Math.round(50 * Math.random());
+	    var n = Math.round(400 * Math.random());
+	    var rw = w/n - 1 // one less to make space
 	    for(i = 0; i < n; i++) {
-			   var newNumber = Math.round(Math.random()* 0.5 * w/n);
+			   var newNumber = Math.round(Math.random()* h);
 			   dataset.push(newNumber);
 			   }
 	    var svg = d3.select("body")
@@ -32,15 +33,16 @@
 			   .attr("width",w)
 			   .attr("height",h);
 
-	    var circles = svg.selectAll("circle")
+	    var rects = svg.selectAll("rect")
 	    .data(dataset)
 	    .enter()
-	    .append("circle");
+	    .append("rect");
 
-	    circles
-			   .attr("cx", function(d,i){ return i * w/n + 0.5 * w/n})
-			   .attr("cy", h/2)
-			   .attr("r", function(d) {return d;})
+	    rects
+			   .attr("x", function(d,i){ return i * (rw+1);})
+			   .attr("y", function(d) {return h-d;})
+			   .attr("height", function(d) {return d;})
+			   .attr("width", rw)
 			   .attr("fill", function(d){return "rgb(0," + 5 * d + ",0)"});
         </script>
     </body>
