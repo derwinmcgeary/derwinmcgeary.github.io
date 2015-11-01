@@ -22,7 +22,7 @@
 	    var w = 1000;
 	    var h = 200;
 	    var dataset = [];
-	    var n = Math.round(400 * Math.random());
+	    var n = Math.round(40 * Math.random());
 	    var rw = w/n - 1 // one less to make space
 	    for(i = 0; i < n; i++) {
 			   var newNumber = Math.round(Math.random()* h);
@@ -38,12 +38,22 @@
 	    .enter()
 	    .append("rect");
 
+	    var texts = svg.selectAll("text")
+			   .data(dataset)
+			   .enter()
+			   .append("text");
+
 	    rects
 			   .attr("x", function(d,i){ return i * (rw+1);})
 			   .attr("y", function(d) {return h-d;})
 			   .attr("height", function(d) {return d;})
 			   .attr("width", rw)
 			   .attr("fill", function(d){return "rgb(0," + 5 * d + ",0)"});
+	    texts
+			   .attr("text", function(d){return d;}
+			   .attr("text-anchor", "middle")
+			   .attr("x", function(d,i) {return (i + 0.5) * (rw + 1;})
+			   .attr("y", function(d) {return h-d + 14});
         </script>
     </body>
 </html>
