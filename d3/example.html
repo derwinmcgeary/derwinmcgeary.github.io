@@ -21,7 +21,7 @@
             // Your beautiful D3 code will go here
 	    var w = 1000;
 	    var h = 200;
-	    var fsize = 15 + "px";
+	    var fsize = 14 + "px";
 	    var dataset = [];
 	    var n = Math.round(40 * Math.random());
 	    var rw = w/n - 1 // one less to make space
@@ -54,6 +54,7 @@
 			   .text(function(d){return d;})
 			   .attr("font-family", "sans-serif")
 			   .attr("font-size", fsize)
+			   .attr("font-weight", "bold")
 			   .attr("fill", "white")
 			   .attr("text-anchor", "middle")
 			   .attr("x", function(d,i) {return (i + 0.5) * (rw + 1);})
