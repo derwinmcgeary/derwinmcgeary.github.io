@@ -68,6 +68,8 @@
 					  }
 			// and redo the dots
 			svg.selectAll("circle").data(dataset).transition().duration(2000).ease("bounce").attr("cx", function(d) {return xScale(d[0]);}).attr("cy",function(d) {return yScale(d[1]);});
+			xScale.domain([0, d3.max(dataset,[d[0])]);
+			yScale.domain([0, d3.max(dataset, d[1])]);
 					  });
         </script>
     </body>
