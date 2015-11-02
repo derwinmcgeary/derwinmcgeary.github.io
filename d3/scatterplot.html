@@ -22,6 +22,8 @@
 	    var w = 1000;
 	    var h = 200;
 	    var nmax = 40;
+	    var rmax = 5;
+	    var padding = rmax;
 	    var fsize = 14 + "px";
 	    var dataset = [];
 	    var n = Math.round(nmax * Math.random());
@@ -32,10 +34,10 @@
 			   }
 	var xScale = d3.scale.linear()
 			   .domain([0, d3.max(dataset, function(d) {return d[0];})])
-			   .range([0,w]);
+			   .range([padding ,w - padding]);
 	var yScale = d3.scale.linear()
 			   .domain([0, d3.max(dataset, function(d) {return d[1];})])
-			   .range([0,h]);
+			   .range([h - padding , padding]);
 
 
 	    var svg = d3.select("body")
@@ -44,7 +46,7 @@
 			   .attr("height",h);
 
 	    var dots = svg.selectAll("circle").data(dataset).enter().append("circle");
-	dots.attr("cx", function(d) {return xScale(d[0]);}).attr("cy",function(d) {return yScale(d[1]);}).attr("r",4);
+	dots.attr("cx", function(d) {return xScale(d[0]);}).attr("cy",function(d) {return yScale(d[1]);}).attr("r",rmax);
         </script>
     </body>
 </html>
