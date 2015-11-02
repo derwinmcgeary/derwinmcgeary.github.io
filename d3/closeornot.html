@@ -28,7 +28,7 @@
 			   .range([h - padding , padding]);
 
 
-	    var pars = d3.select("body")
+	    var pars = d3.select("body").data(dataset).enter()
 			   .append("p")
 			   .attr("text",function(d){return d;});
 
