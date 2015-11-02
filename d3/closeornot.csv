@@ -1,0 +1,49 @@
+"Party","Group","Measure","Number"
+"Conservative","Immigrants","Close",-20
+"Conservative","Benefit claimants","Close",-7
+"Conservative","The working class","Close",-19
+"Conservative","The trade unions","Close",-6
+"Conservative","The middle class","Close",-72
+"Conservative","People with families","Close",-37
+"Conservative","Homeowners","Close",-60
+"Conservative","Women","Close",-33
+"Conservative","Older people","Close",-47
+"Conservative","Rich people","Close",-88
+"Conservative","Businessmen and the City","Close",-88
+"Conservative","Ordinary working people","Close",-54
+"Labour","Immigrants","Close",-56
+"Labour","Benefit claimants","Close",-69
+"Labour","The working class","Close",-68
+"Labour","The trade unions","Close",-81
+"Labour","The middle class","Close",-34
+"Labour","People with families","Close",-59
+"Labour","Homeowners","Close",-36
+"Labour","Women","Close",-48
+"Labour","Older people","Close",-44
+"Labour","Rich people","Close",-17
+"Labour","Businessmen and the City","Close",-21
+"Labour","Ordinary working people","Close",-51
+"Conservative","Immigrants","NotClose",67
+"Conservative","Benefit claimants","NotClose",83
+"Conservative","The working class","NotClose",72
+"Conservative","The trade unions","NotClose",83
+"Conservative","The middle class","NotClose",19
+"Conservative","People with families","NotClose",52
+"Conservative","Homeowners","NotClose",28
+"Conservative","Women","NotClose",51
+"Conservative","Older people","NotClose",42
+"Conservative","Rich people","NotClose",5
+"Conservative","Businessmen and the City","NotClose",4
+"Conservative","Ordinary working people","NotClose",41
+"Labour","Immigrants","NotClose",29
+"Labour","Benefit claimants","NotClose",19
+"Labour","The working class","NotClose",22
+"Labour","The trade unions","NotClose",8
+"Labour","The middle class","NotClose",54
+"Labour","People with families","NotClose",29
+"Labour","Homeowners","NotClose",49
+"Labour","Women","NotClose",35
+"Labour","Older people","NotClose",42
+"Labour","Rich people","NotClose",72
+"Labour","Businessmen and the City","NotClose",67
+"Labour","Ordinary working people","NotClose",39
