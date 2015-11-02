@@ -18,7 +18,7 @@
 	    var padding = 1; // a little gap between bars
 	    var fs = 14;
 	    var fsize = fs + "px";
-	    d3.csv("closeornot.csv", function(d) {dataset = d;});
+	    d3.csv("closeornot.csv", function(d) {var dataset = d;});
 
 	var xScale = d3.scale.linear()
 			   .domain([0, d3.max(dataset, function(d) {return d[0];})])
