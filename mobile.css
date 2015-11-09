@@ -18,7 +18,7 @@ header {
     border-top: 1px solid black;
 }
 
-dl {border-top: 1px solid black;
+dl {
     font-family: "Noto Serif", "Droid Serif", serif; 
     color: #565656; 
     line-height: 1.4em; 
@@ -27,6 +27,10 @@ dl {border-top: 1px solid black;
    }
 dt {    margin-top: 20px;
 	font-weight: bold;
+}
+
+dd {
+    border-top: 1px solid black;
 }
 #skillsbox {display: flex;
 	    justify-content: space-between;
