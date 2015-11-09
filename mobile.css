@@ -25,8 +25,8 @@ dl {border-top: 1px solid black;
     margin-top: 20px;
     padding-left: 35px;
    }
-dt {    margin-bottom: 15px;
-	font-weight: heavy;
+dt {    margin-top: 20px;
+	font-weight: bold;
 }
 #skillsbox {display: flex;
 	    justify-content: space-between;
