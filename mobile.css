@@ -30,7 +30,7 @@ dt {    margin-top: 20px;
 }
 
 dd {
-    border-top: 1px solid black;
+    border-bottom: 0.5px solid black;
 }
 #skillsbox {display: flex;
 	    justify-content: space-between;
