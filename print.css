@@ -11,5 +11,8 @@
 		flex-wrap: wrap;
 	       }
     #w {margin-left: 2%;
+	padding: 0.5em;
+	max-width: 50%;
+	border: 3px solid;
        }	   
 }
