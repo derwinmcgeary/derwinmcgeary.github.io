@@ -2,5 +2,5 @@
 @import url("mobile.css");
 @import url("styles.css") (min-width:600px);
 @import url("styles.css") (min-device-width:600px);
-/* @import url("print.css") print; */
+@import url("print.css");
 

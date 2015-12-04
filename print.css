@@ -1,11 +1,13 @@
-@page {margin:0.5cm;}
+@media print {
 h1 {font-size: 2em;}
 h2 {font-size: 1.6em;}
 h3 {font-size: 1.4em; color:#333;}
 h4 {font-size: 1.2em;}
+h1, h2, h3, h4 { page-break-after: avoid;}
 p {padding-left:0; margin-bottom:0; line-height:1.2em;}
 #skillsbox {display: flex;
 	    justify-content: space-between;
 	    flex-direction: row;
 	    flex-wrap: wrap;
-	   }
+#w {padding-left: 2%;}	   }
+}
