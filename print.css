@@ -9,5 +9,5 @@ p {padding-left:0; margin-bottom:0; line-height:1.2em;}
 	    justify-content: space-between;
 	    flex-direction: row;
 	    flex-wrap: wrap;
-#w {padding-left: 2%;}	   }
+#w {margin-left: 2%;}	   }
 }
